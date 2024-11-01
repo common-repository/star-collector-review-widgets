@@ -1,0 +1,205 @@
+/* CSS for the form layout */
+/* .star-collector-review .tab-content form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+        align-items: center;
+    margin: 2% 0% 0% 0%; 
+} */
+
+body {
+    overflow-x: hidden;
+}
+
+.star-collector-review .form-field {
+    flex: 0 1 calc(33.333% - 20px); /* 33.333% width with 20px gap */
+    max-width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.star-collector-review .form-field label,
+.star-collector-review .form-field input,
+.star-collector-review .form-field small {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.star-collector-review .form-actions {
+    flex-basis: 100%;
+    /* margin-top: 20px; */
+}
+
+.star-collector-review .form-actions-2 {
+    flex-basis: 100%;
+}
+
+.star-collector-review .form-actions input {
+    width: auto; /* Set width to auto to maintain the original width of the button */
+    
+    display: block; /* Display the button as a block element */
+}
+
+.star-collector-review .red {
+    color: red;
+}
+ .full-width-input {
+            width: 100% !important;
+        }
+        
+         .scr-mb-1 {
+            margin-bottom: 1%;
+        }
+        
+         .scr-mb-2 {
+            margin-bottom: 2%;
+        }
+        
+        .scr-mb-3 {
+            margin-bottom: 5%;
+        }
+        
+        .scr-mb-4 {
+            margin-bottom: 10%;
+        }
+        
+        .scr-mt-1 {
+            margin-top: 1%;
+        }
+        
+         .scr-mt-2 {
+            margin-top: 2%;
+        }
+        
+        .scr-mt-3 {
+            margin-top: 5%;
+        }
+        
+        .scr-mt-4 {
+            margin-top: 10%;
+        }
+        
+         .star-collector-flex-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .star-collector-flex-item {
+            flex: 0 0 48%; /* Adjust the width as needed */
+        }
+        
+          .star-collector-flex-item-3-columns {
+            flex: 0 0 32%; /* Adjust the width as needed */
+        }
+        
+         .star-collector-flex-item-1-columns {
+            flex: 0 0 100%; /* Adjust the width as needed */
+        }
+        
+        /*.img-size{*/
+        /*    width:80%;*/
+        /*    height: fit-content;*/
+            
+        /*}*/
+        .img-size {
+            width: 300px;
+            height: 218px;
+            object-fit: contain;
+        }
+        .img-size-style{
+            width:40%;
+            height: fit-content;
+            
+        }
+        .star-collector-border{
+                border-radius: 20px!important;
+        }
+        
+        .hide-class{
+            display:none !important;
+        }
+        
+        
+        
+        
+        .floating-div {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    height: 350px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.green-star {
+    color: #036f03;
+}
+
+.yellow-star{
+    color: #c3af00;
+}
+
+.star-collector-review #settings-tab {
+    margin: 1.6% 0% 0% 0%;
+}
+.star-collector-review #display-tab,
+.star-collector-review #brand-tab,
+.star-collector-review #filters-tab {
+    margin: 3% 0% 0% 0%;
+}
+
+.star-collector-review #tab2-content form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    align-items: center;
+}
+.star-collector-review #settings-tab form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.star-collector-review #brand-tab .form-actions {
+    margin-bottom: 20px;
+}
+
+.star-collector-review #star-collector-all-settings-form #tab5-content h3 {
+    margin-top: 12px;
+}
+
+.custom-admin-logo-link {
+    color: #f0f0f1;
+    transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+.custom-admin-logo-link:hover {
+    color: #72aee6;
+}
+
+.custom-admin-logo-container {
+    display: flex !important;
+    align-items: center;
+}
+
+.custom-admin-logo-link {
+    display: flex !important;
+    align-items: center;
+}
+
+.widget-display-style-img {
+    width: 300px;
+    height: 218px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.widget-display-styleG-img {
+     width: 300px;
+    height: 218px;
+    object-fit: contain;
+    object-position: left;
+}

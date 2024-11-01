@@ -1,0 +1,498 @@
+ /*----------------font family --------------- */
+ @font-face {
+    font-family: "Outfit"; 
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: "Outfit-SemiBold"; 
+    src: url(../fonts/Outfit-SemiBold.ttf);
+}
+.star-collector-review {
+    line-height: normal;
+}
+.star-collector-review .position-bottom-right {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.star-collector-review .position-bottom-left {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.star-collector-review .position-middle-left {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translate(0, -50%);
+}
+
+.star-collector-review .position-middle-right {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+}
+
+.star-collector-review .background-dark{
+    border-radius: 15px;
+     background-color: #363636;
+     color: #d7d7d7;
+}
+.star-collector-review .background-light{
+    border-radius: 15px;
+     background-color: #fff;
+     color: #464646;
+}
+
+.star-collector-review .verified-by-light{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebebeb;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.star-collector-review .verified-by-dark{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #646464;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #d7d7d7;
+}
+
+.star-collector-review .floating-divG .verified-by-light,
+.star-collector-review .floating-divG .verified-by-dark {
+    font-size: 9px !important;
+}
+
+.star-collector-review table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: unset;
+}
+
+.star-collector-review table tr,
+.star-collector-review table td {
+    text-align: left;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.star-collector-review .floating-divB {
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.star-collector-review .floating-divC {
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.star-collector-review .floating-divD {
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.star-collector-review .floating-divE {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.star-collector-review .floating-divF {
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.star-collector-review .floating-divG {
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 9999;
+    text-align: center;
+    width: 72px;
+}
+
+.star-collector-review .floating-divA .brand-name,
+.star-collector-review .floating-divC .brand-name,
+.star-collector-review .floating-divB .brand-name,
+.star-collector-review .floating-divD .brand-name,
+.star-collector-review .floating-divE .brand-name,
+.star-collector-review .floating-divF .brand-name {
+    font-family: Arial;
+}
+
+.star-collector-review .floating-divA .main,
+.star-collector-review .floating-divB .main,
+.star-collector-review .floating-divC .main,
+.star-collector-review .floating-divD .main,
+.star-collector-review .floating-divE .main,
+.star-collector-review .floating-divF .main {
+    padding: 12px 18px 10px 18px;
+}
+
+.star-collector-review .floating-divA .rating-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.star-collector-review .floating-divB .rating-stars,
+.star-collector-review .floating-divC .rating-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+
+.star-collector-review .floating-divD .rating-stars,
+.star-collector-review .floating-divE .rating-stars,
+.star-collector-review .floating-divF .rating-stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.star-collector-review .floating-divA .brand-name,
+.star-collector-review .floating-divB .brand-name,
+.star-collector-review .floating-divC .brand-name,
+.star-collector-review .floating-divD .brand-name,
+.star-collector-review .floating-divE .brand-name,
+.star-collector-review .floating-divF .brand-name {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.star-collector-review .floating-divB .review-count,
+.star-collector-review .floating-divC .review-count,
+.star-collector-review .floating-divD .review-count,
+.star-collector-review .floating-divF .review-count,
+.star-collector-review .floating-divE .review-count {
+    margin-bottom: 8px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Outfit-SemiBold;
+}
+.star-collector-review .floating-divA .review-count{
+    margin-bottom: 8px;
+    margin-top: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Outfit-SemiBold;
+}
+
+.star-collector-review .floating-divF .rating-score,
+.star-collector-review .floating-divF .amount,
+.star-collector-review .floating-divB .rating-score,
+.star-collector-review .floating-divB .amount,
+.star-collector-review .floating-divC .rating-score,
+.star-collector-review .floating-divC .amount {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Outfit-SemiBold;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 7em; /* Adjust the max-width as needed */
+    word-wrap: break-word;
+    text-align: left;
+    margin: auto;
+}
+
+.star-collector-review .floating-divD .rating-score,
+.star-collector-review .floating-divD .amount {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Outfit-SemiBold;
+    /*display: inline-block;*/
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 5.5em; /* Adjust the max-width as needed */
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.star-collector-review .floating-divE .rating-score,
+.star-collector-review .floating-divE .amount {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Outfit-SemiBold;
+}
+
+.star-collector-review .floating-divA .rating-score {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Outfit-SemiBold;
+}
+
+.star-collector-review .floating-divB .star,
+.star-collector-review .floating-divC .star {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.star-collector-review .floating-divB .social,
+.star-collector-review .floating-divC .social {
+    width: 18px;
+    height: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.star-collector-review .floating-divE .socials,
+.star-collector-review .floating-divD .social {
+    margin-right: 3px;
+}
+
+.star-collector-review .floating-divB .star-rating,
+.star-collector-review .floating-divC .star-rating,
+.star-collector-review .floating-divE .star-rating,
+.star-collector-review .floating-divF .star-rating {
+    margin-left: 3px;
+}
+
+
+.star-collector-review .floating-divA .verified-by-img,
+.star-collector-review .floating-divB .verified-by-img,
+.star-collector-review .floating-divC .verified-by-img,
+.star-collector-review .floating-divD .verified-by-img,
+.star-collector-review .floating-divE .verified-by-img,
+.star-collector-review .floating-divF .verified-by-img,
+.star-collector-review .floating-divH .verified-by-img {
+    height: 9px;
+    margin-left: 2px;
+}
+
+.star-collector-review .floating-divG .verified-by-img {
+    margin-top: 2px;
+}
+
+.star-collector-review .floating-divA .verified-tick,
+.star-collector-review .floating-divB .verified-tick,
+.star-collector-review .floating-divC .verified-tick,
+.star-collector-review .floating-divD .verified-tick,
+.star-collector-review .floating-divE .verified-tick,
+.star-collector-review .floating-divF .verified-tick {
+    height: 15px;
+    margin-right: 4px;
+}
+
+.star-collector-review .floating-divG .verified-tick {
+    height: 10px;
+    margin-right: 4px;
+}
+
+
+.star-collector-review .floating-divG .verified-by-img {
+    height: 7px;
+}
+
+.star-collector-review .floating-divA {
+    border-radius: 15px; 
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 9999;
+    text-align: center;
+    font-weight: 400;
+    width: 154px;
+}
+
+.star-collector-review .floating-divG .brand-name {
+    font-family: Arial;
+    margin-bottom: 8px;
+}
+
+.star-collector-review .floating-divG .main {
+    padding: 10px 10px 5px 10px;
+}
+
+.star-collector-review .floating-divG .rating-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.star-collector-review .floating-divG .brand-name {
+    font-size: 12px;
+    font-weight: 500;
+}
+.star-collector-review .floating-divG .review-count {
+    margin-bottom: 8px;
+    font-size: 11.5px;
+    font-weight: 500;
+    font-family: Outfit-SemiBold;
+}
+.star-collector-review .floating-divG .rating-score,
+.star-collector-review .floating-divG .amount {
+    font-size: 13.5px;
+    font-weight: 500;
+    font-family: Outfit-SemiBold;
+}
+
+.star-collector-review .floating-divG .star {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.star-collector-review .floating-divG .social {
+    width: 20px;
+    height: 20px;
+    margin: 2px 2px;
+}
+
+.star-collector-review .floating-divG .verified-by {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebebeb;
+    padding: 7px;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.star-collector-review .floating-divG .divider {
+    border-top: 1px solid #ebebeb;
+    height: 10px;
+}
+
+.star-collector-review .floating-divA .stars,
+.star-collector-review .floating-divD .stars,
+.star-collector-review .floating-divE .stars,
+.star-collector-review .floating-divF .stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-collector-review .floating-divA .star {
+    height: 18px;
+    width: 18px;
+}
+
+.star-collector-review .floating-divD .star,
+.star-collector-review .floating-divE .star,
+.star-collector-review .floating-divF .star {
+    height: 16px;
+    width: 16px;
+}
+.star-collector-review .floating-divA .social{
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.star-collector-review .floating-divE .social,
+.star-collector-review .floating-divF .social {
+    width: 18px;
+    height: 18px;
+}
+
+.star-collector-review .floating-divD .social {
+    width: 18px;
+    height: 18px;
+}
+
+.star-collector-review .floating-divD .socials,
+.star-collector-review .floating-divE .socials,
+.star-collector-review .floating-divF .socials {
+    display: flex;
+    align-items: center;
+}
+.star-collector-review .floating-divB .rating-score,
+.star-collector-review .floating-divC .rating-score,
+.star-collector-review .floating-divC .amount,
+.star-collector-review .floating-divD .rating-score,
+.star-collector-review .floating-divF .rating-score {
+    width: 100%;
+    text-align: end;
+}
+
+.star-collector-review .floating-divD .rating-score,
+.star-collector-review .floating-divB .rating-score {
+    padding-bottom: 5px;
+}
+
+
+
+.star-collector-review .floating-divE .rating-score {
+    text-align: end;
+}
+
+.custom-admin-logo-link {
+    color: #f0f0f1;
+    transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+.custom-admin-logo-link:hover {
+    color: #72aee6;
+}
+
+.custom-admin-logo-container {
+    display: flex !important;
+    align-items: center;
+}
+
+.custom-admin-logo-link {
+    display: flex !important;
+    align-items: center;
+}
+
+/* CSS for mobile */
+@media only screen and (max-width: 576px) {
+    .floating-divG .brand-name, .floating-divG .divider, .floating-divG .social {
+        display: none;
+    }
+    .star-collector-review .floating-divG.position-middle-right {
+        position: fixed;
+        bottom: 20px !important;
+        right: 20px!important;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+    
+    .star-collector-review .floating-divG.position-middle-left {
+        position: fixed;
+        bottom: 20px !important;
+        left: 20px !important;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+}
